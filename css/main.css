@@ -1,8 +1,24 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.carousel-caption {
+	text-align: center;
+	bottom: 150px;
+	font-style: 700;
+	font-size: 35px;
+}
 
-#map-container { height: 180px; }
+#stats dt {
+  border: 5px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+#mapid { 
+  height: 380px; 
+}
+
+
 
 
 
