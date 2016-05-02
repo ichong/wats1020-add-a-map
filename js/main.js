@@ -20,9 +20,11 @@
 // these locations using a mapping tool such as Google Maps.)
 
 $( document ).ready(function() {
+  //Function for the dropdown tab
   $('.dropdown-toggle').dropdown();
-  
+  //Longitude and latitude coordinates for Mt Rainier
     var lnglat = [46.8523, -121.7603];  
+  //Leaflet code for map
     var mymap = L.map('mapid').setView(lnglat, 11);
 
 
